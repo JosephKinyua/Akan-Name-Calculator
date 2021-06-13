@@ -19,74 +19,76 @@
             Most Ghanaians have at least one name from this system, even if they also have an English or Christian name.
         </p>
     </div>
-    <div class="subwrap">
-        <div class="names">
-            <div class="malenames">
-                <h2>Male days names:</h2>
-                <ul>
-                    <li>Sunday:Kwasi</li>
-                    <li>Monday:Kwadwo</li>
-                    <li>Tuesday:Kwabena</li>
-                    <li>Wednesday:Kwaku</li>
-                    <li>Thursday:Yaw</li>
-                    <li>Friday:Kofi</li>
-                    <li>Saturday:Kwame</li>
-                </ul>
+    <div class="wrap">
+        <div class="subwrap">
+            <div class="names">
+                <div class="malenames">
+                    <h2>Male days names:</h2>
+                    <ul>
+                        <li>Sunday:Kwasi</li>
+                        <li>Monday:Kwadwo</li>
+                        <li>Tuesday:Kwabena</li>
+                        <li>Wednesday:Kwaku</li>
+                        <li>Thursday:Yaw</li>
+                        <li>Friday:Kofi</li>
+                        <li>Saturday:Kwame</li>
+                    </ul>
+                </div>
+                <div class="femalenames">
+                    <h2>Female days names:</h2>
+                    <ul>
+                        <li>Sunday:Akosua</li>
+                        <li>Monday:Adwoa</li>
+                        <li>Tuesday:Abenea</li>
+                        <li>Wednesday:Akua</li>
+                        <li>Thursday:Yaa</li>
+                        <li>Friday:Afua</li>
+                        <li>Saturday:Ama</li>
+                    </ul>
+                </div>
             </div>
-            <div class="femalenames">
-                <h2>Female days names:</h2>
-                <ul>
-                    <li>Sunday:Akosua</li>
-                    <li>Monday:Adwoa</li>
-                    <li>Tuesday:Abenea</li>
-                    <li>Wednesday:Akua</li>
-                    <li>Thursday:Yaa</li>
-                    <li>Friday:Afua</li>
-                    <li>Saturday:Ama</li>
-                </ul>
+            <div class="birthday">
+                <p>Akan name web application takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. Akan names are derived from Ghanian culture. Frequently in Ghana, children
+                    are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.</p>
             </div>
         </div>
-        <div class="birthday">
-            <p>Akan name web application takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. Akan names are derived from Ghanian culture. Frequently in Ghana, children are
-                given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.</p>
-        </div>
-    </div>
-    <div class="container w-25 mt-lg-3 ml-lg-auto">
+        <div class="container w-25 mt-lg-3 ml-lg-auto">
 
-        <form name="myForm" class="form" onsubmit="validate();">
-            <div class="form-group mb-4">
-                <label for="number">Century of Birth:</label>
-                <input type="number" class="form-control" id="century" placeholder="Century of Birth" name="century">
-            </div>
-            <div class="form-group mb-4">
-                <label for="number">Year of Birth:</label>
-                <input type="number" class="form-control" id="year" placeholder="Year of Birth" name="year">
-            </div>
-            <div class="form-group mb-4">
-                <label for="month">Month of Birth:</label>
-                <input type="number" class="form-control" id="month" placeholder="Month of Birth" name="month">
-            </div>
-            <div class="form-group mb-3">
-                <label for="date">Date of Birth:</label>
-                <input type="number" class="form-control" id="date" placeholder="Date of Birth" name="date">
-            </div>
-            <div class="form-check-inline">
-                <input class="form-check-input" type="radio" name="gender" id="male">
-                <label class="form-check-label" for="flexRadioDefault1">
+            <form name="myForm" class="form" onsubmit="validate();">
+                <div class="form-group mb-4">
+                    <label for="number">Century of Birth:</label>
+                    <input type="number" class="form-control" id="century" placeholder="Century of Birth" name="century">
+                </div>
+                <div class="form-group mb-4">
+                    <label for="number">Year of Birth:</label>
+                    <input type="number" class="form-control" id="year" placeholder="Year of Birth" name="year">
+                </div>
+                <div class="form-group mb-4">
+                    <label for="month">Month of Birth:</label>
+                    <input type="number" class="form-control" id="month" placeholder="Month of Birth" name="month">
+                </div>
+                <div class="form-group mb-3">
+                    <label for="date">Date of Birth:</label>
+                    <input type="number" class="form-control" id="date" placeholder="Date of Birth" name="date">
+                </div>
+                <div class="form-check-inline">
+                    <input class="form-check-input" type="radio" name="gender" id="male">
+                    <label class="form-check-label" for="flexRadioDefault1">
                         Male
                     </label>
-            </div>
-            <div class="form-check-inline">
-                <input class="form-check-input" type="radio" name="gender" id="female" checked>
-                <label class="form-check-label" for="flexRadioDefault2">
+                </div>
+                <div class="form-check-inline">
+                    <input class="form-check-input" type="radio" name="gender" id="female" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
                         Female
                     </label>
-            </div>
-            <br>
-            <button type="submit" class="btn btn-primary mt-4" onclick="yourName();">Check Your Name</button>
-            <br>
-        </form>
-        <p id="results"> </p>
+                </div>
+                <br>
+                <button type="submit" class="btn btn-primary mt-4" onclick="yourName();">Check Your Name</button>
+                <br>
+            </form>
+            <p id="results"> </p>
+        </div>
     </div>
 </body>
 
