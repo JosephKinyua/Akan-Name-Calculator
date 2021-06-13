@@ -46,3 +46,9 @@
         display: flex;
         margin-bottom: 30px;
     }
+    
+    body {
+        background-image: url("../images/new.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
