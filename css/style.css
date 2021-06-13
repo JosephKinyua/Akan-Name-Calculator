@@ -12,3 +12,8 @@ system p {
 .malenames {
     margin-right: 80px;
 }
+
+.names {
+    display: flex;
+    margin-bottom: 30px;
+}
