@@ -40,4 +40,5 @@ function calculateDay() {
     console.log(days);
     return (Math.ceil(days));
 }
-}
+
+function yourGender() {}
