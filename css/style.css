@@ -4,3 +4,7 @@ h1 {
     text-shadow: 2px 2px 5px rgba(0, 204, 255, 0.849);
     font-size: 70px;
 }
+
+system p {
+    font-family: 'Courier New', Courier, monospace;
+}
