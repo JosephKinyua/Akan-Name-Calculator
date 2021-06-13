@@ -36,4 +36,8 @@ function calculateDay() {
     var YY = parseInt(document.getElementById("year").value);
     var MM = parseInt(document.getElementById("month").value);
     var DD = parseInt(document.getElementById("date").value);
+    days = (((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10)) + DD) % 7;
+    console.log(days);
+    return (Math.ceil(days));
+}
 }
