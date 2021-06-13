@@ -8,3 +8,7 @@ h1 {
 system p {
     font-family: 'Courier New', Courier, monospace;
 }
+
+.malenames {
+    margin-right: 80px;
+}
