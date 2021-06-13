@@ -7,5 +7,22 @@ function validate() {
         console.log("Please provide a valid century");
         document.myForm.year.focus();
         return false;
+    } else if (document.myForm.year.value == "") {
+        console.log("Please provide a valid year");
+        document.myForm.year.focus();
+        return false;
+    } else if (document.myForm.month.value == "" || document.myForm.month.value <= 0 || document.myForm.month.value > 12) {
+        console.log("Please provide valid day of birth");
+        document.myForm.month.focus();
+        return false;
+    } else if (document.myForm.date.value == "" || document.myForm.date.value <= 0 || document.myForm.date.value > 31) {
+        console.log("Please provide a valid date");
+        document.myForm.day.focus();
+        return false;
+    } else if (genders[0].checked == false && genders[1].checked == false) {
+        console.log("You must select male or female");
+        return false;
+    } else {
+        return true;
     }
 }
