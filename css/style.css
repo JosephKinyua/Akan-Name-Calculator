@@ -29,3 +29,15 @@
         flex-direction: column;
         width: 40%;
     }
+    
+    .container {
+        background-color: rgb(60, 152, 168);
+        opacity: 0.7;
+        margin-top: 80px;
+        border-radius: 18px;
+        -webkit-border-radius: 18px;
+        -moz-border-radius: 18px;
+        -ms-border-radius: 18px;
+        -o-border-radius: 18px;
+        padding: 30px;
+    }
