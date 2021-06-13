@@ -50,4 +50,22 @@ function yourGender() {
     } else {
         return false;
     }
-    switch (gender) {}
+    switch (gender) {
+        case "male":
+            if (dayCheck == 1) {
+                console.log("Born on " + weekDay[0] + " the akan name is " + maleNames[0]);
+            } else if (dayCheck == 2) {
+                console.log("Born on " + weekDay[1] + " the akan name is " + maleNames[1]);
+            } else if (dayCheck == 3) {
+                console.log("Born on " + weekDay[2] + " the akan name is " + maleNames[2]);
+            } else if (dayCheck == 4) {
+                console.log("Born on " + weekDay[3] + " the akan name is " + maleNames[3]);
+            } else if (dayCheck == 5) {
+                console.log("Born on" + weekDay[4] + " the akan name is " + maleNames[4]);
+            } else if (dayCheck == 6) {
+                console.log("Born on " + weekDay[5] + " the akan name is " + maleNames[5]);
+            } else if (dayCheck == 7) {
+                console.log("Born on " + weekDay[6] + " the akan name is " + maleNames[6]);
+            }
+            break;
+    }
