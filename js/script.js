@@ -2,5 +2,5 @@
 // for data.
 //  the data that is entered must be checked for correct form and value,Implement appropriate logic to test correctness of data.
 function validate() {
-
+    var genders = document.getElementsByName("gender");
 }
