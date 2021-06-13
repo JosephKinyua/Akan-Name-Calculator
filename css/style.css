@@ -41,3 +41,8 @@
         -o-border-radius: 18px;
         padding: 30px;
     }
+    
+    .wrap {
+        display: flex;
+        margin-bottom: 30px;
+    }
