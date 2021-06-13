@@ -90,5 +90,6 @@ function yourGender() {
 }
 
 function yourName() {
-
+    dayCheck = calculateDay();
+    yourGender();
 }
