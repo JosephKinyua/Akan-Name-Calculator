@@ -18,7 +18,7 @@ There is no any bug issue.
 * HTML which was used in structuring of the page
 
 * CSS used in styling the page and aligning element into their desired position.
-* JAVASCRIPT used in form validation and arithmetic operations when connect with the HTML.
+* JAVASCRIPT used in form validation and arithmetic operations when connecting with the HTML.
 ## Support and contact details
 For any query you can reach me vai email kinyuajoseph2014@gmail.com
 
