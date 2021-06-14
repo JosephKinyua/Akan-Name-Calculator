@@ -5,7 +5,7 @@
         font-size: 70px;
     }
     
-    system p {
+    .system p {
         font-family: 'Courier New', Courier, monospace;
     }
     
@@ -72,10 +72,10 @@
         border: none;
     }
     
-    footer {
+    footer div {
         text-align: center;
         background-color: rgb(31, 167, 185);
-        padding-bottom: 90px;
+        padding-bottom: 50px;
     }
     
     .copy p {
