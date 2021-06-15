@@ -1,8 +1,8 @@
 # Akan-Name-Calculator
-#### A project which gives out an Akan name when you iput your details in the form achieved by using  HTML,CSS and Javascript, 2021
+#### A project which gives out an Akan name when you input your details in the form, achieved by using  HTML,CSS and Javascript, 2021
 #### By Joseph Nyaga
 ## Description
-The Anka-Name project describes how a user can get his/her  name by filling in the form on the landing pages and through the console one is able to get the day he/she was born and the Anka name with accordance to the day.
+The Akan-Name project describes how a user can get his/her  name by filling in the form on the landing pages and through the console one is able to get the day he/she was born and the Akan name with accordance to the day.
 ## Setup/Installation Requirements
 * Clone repo using GitHub link
 ````````
